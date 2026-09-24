@@ -6,7 +6,7 @@ html{
 .music_player{
     text-align: center;
     width: 50vw;
-    display:st
+    display: inline-block;
 }
 
 .songinfo{

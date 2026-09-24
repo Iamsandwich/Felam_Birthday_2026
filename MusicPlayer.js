@@ -19,13 +19,34 @@ const VolumeSlider = document.getElementById("volumeslider");
 
 //Remeber! Ipads hate Ogg. Everything else they seem fine with tho, go on ahead
 var songs = [
+
     {
-        image:"/IMG/",
+        image:"/IMG/Music",
+        name:"Ames really loves you",
+        artist:"Sammich",
+        audio:"/Music/ames loves you mxi2.wav"
+    },
+
+    {
+        image:"/IMG/Music",
+        name:"Happy Ames Dancing time!!",
+        artist:"Sammich",
+        audio:"/Music/happy ames dancing mix1.wav"
+    },
+
+    {
+        image:"/IMG/Music",
         name:"Just a Little Ames",
         artist:"Sammich",
         audio:"/Music/Ames song x2.m4a"
     },
 
+    {
+        image:"/IMG/Music",
+        name:"Scary Ames bites your butt!",
+        artist:"Sammich",
+        audio:"/Music/Ames bites your butt mix1.wav"
+    }
 
 
 ];
