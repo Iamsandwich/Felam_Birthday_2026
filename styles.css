@@ -67,6 +67,8 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 3vh;
 }
 
+
+
 .button button{
     height: 10vh;
     width: 20vw;
@@ -80,9 +82,17 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
 }
 
-.button button:hover{
-    background-color: antiquewhite;
-    color: rgb(129, 115, 115);
+.button2 button{
+    height: 20vh;
+    width: 20vw;
+    border-radius: 5px;
+    border-color: none;
+    border-style: none;
+    background-color: rgb(255, 210, 210);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size: 5vh;
+    color: black;
 }
 
 .button button:active{
@@ -90,3 +100,14 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(255, 255, 255);
     box-shadow: 5px;
 }
+
+.button button:hover{
+    background-color: antiquewhite;
+    color: rgb(129, 115, 115);
+}
+
+.button2 button:hover{
+    background-color: antiquewhite;
+    color: rgb(129, 115, 115);
+}
+
