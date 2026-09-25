@@ -3,18 +3,52 @@ html{
 }
 
 
+
+
+
 .music_player{
     text-align: center;
-    width: 50vw;
-    display: inline-block;
+    max-width: 15%;
+    min-width: 200px;
+    display:block;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    background-color: blanchedalmond;
+    opacity: 30%;
+    border-radius: 15px;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.music_player:hover{
+    transition: opacity 0.3s, visibility 0.3s;
+    opacity: 100%;
 }
 
 .songinfo{
     text-align: left;
+    margin: 2vh;
+}
+
+.sliderandbuttons{
+    text-align: center;
+}
+
+.musicbuttons{
+    margin-top: 2vh;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.musicbutton{
+    position: relative;
+    display: inline-block;
 }
 
 .main_container{
     text-align: center;
+    margin-top: 40vh;
 }
 
 .welcome_text{
