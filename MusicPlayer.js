@@ -294,18 +294,23 @@ console.log(songImage);
 console.log("opening the pictura");
 if (enlarged == 0){
 var largeImage = document.getElementById('songimage');
+var MusicPlayerLarge = document.getElementById("playerid");
+
    
    largeImage.style.width=90+"%";
    largeImage.style.height=90+"%";
+   MusicPlayerLarge.style.width=30+"%";
    
     enlarged = 1
 }
 else {
     enlarged = 0;
     var largeImage = document.getElementById('songimage');
+    var MusicPlayerLarge = document.getElementById("playerid");
    
    largeImage.style.width=50+"%";
    largeImage.style.height=50+"%";
+   MusicPlayerLarge.style.width=15+"%";
 }
 });
 
