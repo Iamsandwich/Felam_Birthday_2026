@@ -21,28 +21,28 @@ const VolumeSlider = document.getElementById("volumeslider");
 var songs = [
 
     {
-        image:"/IMG/Music",
+        image:"/IMG/Music/Ames Loves you.jpg",
         name:"Ames really loves you",
         artist:"Sammich",
         audio:"/Music/ames loves you mxi2.wav"
     },
 
     {
-        image:"/IMG/Music",
+        image:"/IMG/Music/The ree.JPG",
         name:"Happy Ames Dancing time!!",
         artist:"Sammich",
         audio:"/Music/happy ames dancing mix1.wav"
     },
 
     {
-        image:"/IMG/Music",
+        image:"/IMG/Music/just a little ames.JPG",
         name:"Just a Little Ames",
         artist:"Sammich",
         audio:"/Music/Ames song x2.m4a"
     },
 
     {
-        image:"/IMG/Music",
+        image:"/IMG/Music/Spooky Ames.JPG",
         name:"Scary Ames bites your butt!",
         artist:"Sammich",
         audio:"/Music/Ames bites your butt mix1.wav"
