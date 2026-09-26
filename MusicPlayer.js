@@ -238,8 +238,7 @@ VolumeSlider.addEventListener("change", function(){
     console.log(VolumeSlider.value);
 });
 
-
-function changeVolume(){
+VolumeSlider.addEventListener("change", function(){
     VolumeSlider.value = audio.volume;
     if (VolumeSlider.value == 0){
     audio.muted = true;
@@ -252,7 +251,23 @@ function changeVolume(){
      document.getElementById("volumelol").innerHTML = '<img id="volumebutton" src="img/volume.png" alt="volume">';
      
     }
-};
+
+});
+
+// function changeVolume(){
+//    VolumeSlider.value = audio.volume;
+//    if (VolumeSlider.value == 0){
+//    audio.muted = true;
+//    console.log("audio muted");
+//    document.getElementById("volumelol").innerHTML = '<img id="volumebutton" src="img/muted.png" alt="volume">';
+//    }
+//    else if (VolumeSlider.value != 0){
+//     console.log("audio unmuted");
+//     audio.muted = false;
+//     document.getElementById("volumelol").innerHTML = '<img id="volumebutton" src="img/volume.png" alt="volume">';
+//     
+//    }
+//};
 
 VolumeButton.addEventListener("click", function(){
     if (audio.muted == false){
@@ -298,7 +313,7 @@ else {
 
 setInterval(moveSlider, 1000);
 setInterval(CurrentTime, 1000);
-setInterval(changeVolume, 1000);
+
 
 
 
