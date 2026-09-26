@@ -7,6 +7,7 @@ html{
 
 .player{
     border-radius: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
      .music_player{
@@ -33,9 +34,23 @@ html{
     opacity: 100%;
 }
 
+.infoimage{
+    font-size: 80%;
+    color: #714240;
+    font-style: italic;
+}
+
+.nowplaying{
+    color: #c1468c;
+
+}
+
 #songimage{
     width: 50%;
     margin-top: 2vh;
+    border-color: #ffa6e7;
+    border-width: 10px;
+    border-style:double;
 }
 
 .songinfo{
@@ -75,17 +90,21 @@ html{
 
 }
 
-.musicbutton{
+.musicbutton, #volumelol, #volumetext{
     position: relative;
     display: inline-block;
 }
 
 .main_container{
     text-align: center;
+}
+
+ .welcome_text_1{
+    text-align: center;
     margin-top: 40vh;
 }
 
-.welcome_text{
+.welcome_text, .welcome_text_1{
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 

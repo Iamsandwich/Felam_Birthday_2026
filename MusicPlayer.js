@@ -272,6 +272,28 @@ VolumeButton.addEventListener("click", function(){
 
 
 
+var enlarged = 0;
+songImage.addEventListener("click", function(){
+console.log(songImage);
+console.log("opening the pictura");
+if (enlarged == 0){
+var largeImage = document.getElementById('songimage');
+   
+   largeImage.style.width=90+"%";
+   largeImage.style.height=90+"%";
+   
+    enlarged = 1
+}
+else {
+    enlarged = 0;
+    var largeImage = document.getElementById('songimage');
+   
+   largeImage.style.width=50+"%";
+   largeImage.style.height=50+"%";
+}
+});
+
+
 
 setInterval(moveSlider, 1000);
 setInterval(CurrentTime, 1000);
