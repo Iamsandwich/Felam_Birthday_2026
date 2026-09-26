@@ -248,8 +248,9 @@ function changeVolume(){
     }
     else if (VolumeSlider.value != 0){
      console.log("audio unmuted");
-     document.getElementById("volumelol").innerHTML = '<img id="volumebutton" src="img/volume.png" alt="volume">';
      audio.muted = false;
+     document.getElementById("volumelol").innerHTML = '<img id="volumebutton" src="img/volume.png" alt="volume">';
+     
     }
 };
 
