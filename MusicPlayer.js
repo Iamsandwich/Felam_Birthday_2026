@@ -46,7 +46,22 @@ var songs = [
         name:"Scary Ames bites your butt!",
         artist:"Sammich",
         audio:"/Music/Ames bites your butt mix1.wav"
+    },
+
+    {
+        image:"/IMG/Music/Tropical ames.png",
+        name:"Bossa Nova Ames friend",
+        artist:"Sammich",
+        audio:"/Music/bossa nova ames.wav"
+    },
+
+    {
+        image:"/IMG/Music/Sketchy ames.png",
+        name:"Serious Ames",
+        artist:"Sammich",
+        audio:"/Music/ames says hello ree.wav"
     }
+
 
 
 ];
